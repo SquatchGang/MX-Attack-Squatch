@@ -132,6 +132,18 @@ sudo apt install -y code
 
 echo "VS Code installed."
 
+echo "Adding Extensions"
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension github.copilot
+code --install-extension oderwat.indent-rainbow
+code --install-extension rust-lang.rust-analyzer
+code --install-extension dustypomerleau.rust-syntax
+code --install-extension tamasfe.even-better-toml
+code --install-extension serayuzgur.crates
+code --install-extension wayou.vscode-todo-highlight
+echo "Extensions Done."
+
 # ------------------- Brave Browser Install ------------------- #
 
 # Download and add the Brave browser GPG key to the keyring
