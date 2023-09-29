@@ -67,6 +67,7 @@ default_tools=(
     zsh
     open-vm-tools-desktop
     open-vm-tools
+    build-essential
 )
 
 # Install tools from default repositories
