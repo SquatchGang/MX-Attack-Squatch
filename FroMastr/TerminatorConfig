@@ -1,0 +1,60 @@
+[global_config]
+  inactive_color_offset = 0.788235294117647
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.52
+    background_type = transparent
+    font = monofur 12
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+    title_use_system_font = False
+    title_font = Zekton Bold Italic 9
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 82:39
+      maximised = False
+      fullscreen = False
+      size = 1126, 573
+      title = Fro@SquatchMastr:~
+      last_active_term = cef5fcd0-2c5f-45f2-80d0-02f301cb1708
+      last_active_window = True
+    [[[child1]]]
+      type = HPaned
+      parent = child0
+      order = 0
+      position = 548
+      ratio = 0.4888492417484389
+    [[[terminal2]]]
+      type = Terminal
+      parent = child1
+      order = 0
+      profile = default
+      uuid = cef5fcd0-2c5f-45f2-80d0-02f301cb1708
+    [[[child3]]]
+      type = VPaned
+      parent = child1
+      order = 1
+      position = 285
+      ratio = 0.5017605633802817
+    [[[terminal4]]]
+      type = Terminal
+      parent = child3
+      order = 0
+      profile = default
+      uuid = 2cdfd803-eace-46bd-a6a1-cf9b4bfb5fae
+    [[[terminal5]]]
+      type = Terminal
+      parent = child3
+      order = 1
+      profile = default
+      uuid = cf4ae44b-50ac-442b-8afd-af5fad100c4e
+[plugins]
