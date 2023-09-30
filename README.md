@@ -27,6 +27,6 @@ This Bash script automates the setup of essential tools and configurations for p
 ### Notes
 
 - Manually install additional tools as needed via the `sudo apt install TOOL -y -t kali-rolling` command.
-- Script currently does not install burp, zap, or caido. Since Squatch Gang cant agree on what platform is best.
+- Script currently does not install burp, zap, or caido. You do you bro.
 
 Feel free to contribute to this repository and improve the scripts!
